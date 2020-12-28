@@ -19,10 +19,10 @@ nav {
 }
 
 @media only screen and (max-width: 900px) {
-	h1{
+	small-h1{
 		font-size: 1.7rem;
 	}
-	h4 {
+	small-h4 {
 		font-size:1rem;
 	}
 }

@@ -173,28 +173,6 @@ nav {
 .business-card {
 	border: gray 1px solid;
 	border-radius: 2%;
-	transition: transform 1s;
-	transition: transform 1s;
-  	transform-style: preserve-3d;
-  	cursor: pointer;
-	position: relative;
-}
-
-.card.is-flipped {
-  	transform: rotateY(180deg);
-}
-
-.card__face {
-  	position: absolute;
-  	-webkit-backface-visibility: hidden;
-  	backface-visibility: hidden;
-}
-
-.card__face--front {
-}
-
-.card__face--back {
-  	transform: rotateY(180deg);
 }
 
 .business-card-photo {

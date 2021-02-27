@@ -14,11 +14,3 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }; 
-
-
-/* contact.html */
-
-var flip = document.querySelector('.business-card');
-flip.addEventListener( 'click', function() {
-  flip.classList.toggle('is-flipped');
-});

@@ -141,15 +141,16 @@ nav {
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  	background-color: #555;
+	border: none;
 }
 
 .content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  	padding: 0 18px;
+  	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #f1f1f1;
 }
 
 @media only screen and (max-width: 900px) {
@@ -180,20 +181,20 @@ nav {
 }
 
 .card.is-flipped {
-  transform: rotateY(180deg);
+  	transform: rotateY(180deg);
 }
 
 .card__face {
-  position: absolute;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  	position: absolute;
+  	-webkit-backface-visibility: hidden;
+  	backface-visibility: hidden;
 }
 
 .card__face--front {
 }
 
 .card__face--back {
-  transform: rotateY(180deg);
+  	transform: rotateY(180deg);
 }
 
 .business-card-photo {

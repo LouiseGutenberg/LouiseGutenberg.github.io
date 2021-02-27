@@ -172,6 +172,7 @@ nav {
 .business-card {
 	border: gray 1px solid;
 	border-radius: 2%;
+	cursor: pointer;
 }
 
 .business-card-photo {
